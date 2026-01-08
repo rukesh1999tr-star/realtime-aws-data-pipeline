@@ -1,0 +1,11 @@
+realtime-aws-de/
+│-- scripts/
+│   │-- event_generator.py
+│   │-- spark_stream_emr.py
+│   │-- s3_to_delta.py
+│-- airflow/
+│   │-- dags/
+│   │   │-- realtime_pipeline.py
+│-- config/
+│   │-- iam_policy.json
+│-- README.md
